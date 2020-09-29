@@ -1,0 +1,28 @@
+@import './modal';
+@import './button';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#root {
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	width: 1038px;
+	height: 591px;
+	position: relative;
+}
+
+.draggable {
+  cursor: grab;
+}
