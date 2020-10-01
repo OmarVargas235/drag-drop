@@ -1,7 +1,5 @@
 # Drag and Drop
 
-Practica de Drag y Drop, hecho con javascript.
-
 ## Comenzando :rocket:
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo.
