@@ -9,10 +9,10 @@
   border-radius: 3px;
   border: none;
   cursor: pointer;
-}
 
-.btn:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 .btn-primary {
@@ -26,19 +26,21 @@
   overflow: hidden;
 }
 
-.ripple-button span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100px;
-  height: 100px;
-  opacity: .3;
-  background-color: #fff;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%) scale(0);
-  transition-property: transform, opacity;
-  transition-duration: .6s;
-  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
-  pointer-events: none;
+.ripple-button {
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    opacity: .3;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    transition-property: transform, opacity;
+    transition-duration: .6s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+    pointer-events: none;
+  }
 }
