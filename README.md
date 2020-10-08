@@ -1,6 +1,4 @@
-# Crud
-
-Practica de Drag y Drop, hecho con javascript.
+# Drag and Drop
 
 ## Comenzando :rocket:
 
@@ -26,7 +24,7 @@ Ejecuta la aplicación en modo de desarrollo.
 #### ``npm start``
 Abra _**http://localhost:3100**_ para verlo en el navegador.
 
-### Tecnologias y lenguajes en lo que esta hecho el **crud** :computer:
+### Tecnologias y lenguajes en lo que esta hecho :computer:
 
 1. webpack.
 2. javascript.
